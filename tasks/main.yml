@@ -52,7 +52,7 @@
     state: present
     update_homebrew: yes
     upgrade_all: yes
-    ignore_errors: true
+  ignore_errors: true
 
 - name: "Install Homebrew Cask Packages"
   community.general.homebrew_cask:
@@ -102,5 +102,5 @@
     state: present
     upgrade_all: yes
     update_homebrew: yes
-      ignore_errors: true
+  ignore_errors: true
 
