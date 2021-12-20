@@ -1,0 +1,106 @@
+---
+- name: "Install Homebrew Packages"
+  community.general.homebrew:
+    name: "{{ packages }}"
+  vars:
+    packages:
+      - 'azure-cli'
+      - 'boot2docker'
+      - 'ccze'
+      - 'consul'
+      - 'curl'
+      - 'derailed/k9s/k9s'
+      - 'docker-compose'
+      - 'docker-machine'
+      - 'drone-cli'
+      - 'freerdp'
+      - 'hashicorp/tap/vault'
+      - 'istioctl'
+      - 'k3d'
+      - 'kops'
+      - 'kubectl'
+      - 'kubernetes-helm'
+      - 'kubeseal'
+      - 'libmagic'
+      - 'mcrypt'
+      - 'minikube'
+      - 'nano'
+      - 'ncdu'
+      - 'netdata'
+      - 'nmap'
+      - 'nomad'
+      - 'nvm'
+      - 'openfortivpn'
+      - 'openvpn'
+      - 'packer'
+      - 'php'
+      - 'podman'
+      - 'rancher-compose'
+      - 'rdesktop'
+      - 'skaffold'
+      - 'skopeo'
+      - 'stunnel'
+      - 'syncthing'
+      - 'terraform'
+      - 'terraform-docs'
+      - 'terraform-inventory'
+      - 'terraformer'
+      - 'terragrunt'
+      - 'tfenv'
+      - 'universal-ctags'
+      - 'velero'
+    state: present
+    update_homebrew: yes
+    upgrade_all: yes
+    ignore_errors: true
+
+- name: "Install Homebrew Cask Packages"
+  community.general.homebrew_cask:
+    name: "{{ packages }}"
+  vars:
+    packages:
+
+      # - 'atom'
+      # - 'forticlient'
+      # - 'teamviewer'
+      - 'adoptopenjdk'
+      - 'android-platform-tools'
+      - 'android-studio'
+      - 'azure-data-studio'
+      - 'bitwarden'
+      - 'chromedriver'
+      - 'docker'
+      - 'google-chrome'
+      - 'google-cloud-sdk'
+      - 'gpg-suite'
+      - 'ibm-cloud-cli'
+      - 'insomnia'
+      - 'intellij-idea-ce'
+      - 'iterm2'
+      - 'keepassxc'
+      - 'keybase'
+      - 'lastpass'
+      - 'macvim'
+      - 'meld'
+      - 'miniconda'
+      - 'minikube'
+      - 'mysqlworkbench'
+      - 'nmap'
+      - 'pgadmin4'
+      - 'postman'
+      - 'robo-3t'
+      - 'slack'
+      - 'soapui'
+      - 'sublime-text'
+      - 'vagrant'
+      - 'vagrant-manager'
+      - 'virtualbox'
+      - 'virtualbox-extension-pack'
+      - 'visual-studio-code'
+      - 'wine-stable'
+      - 'xquartz'
+    state: present
+    upgrade_all: yes
+    update_homebrew: yes
+      ignore_errors: true
+
