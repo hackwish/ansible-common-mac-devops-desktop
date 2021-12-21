@@ -91,7 +91,7 @@
       - 'postman'
       - 'robo-3t'
       - 'slack'
-      - 'soapui'
+      # - 'soapui'
       - 'sublime-text'
       - 'vagrant'
       - 'vagrant-manager'
