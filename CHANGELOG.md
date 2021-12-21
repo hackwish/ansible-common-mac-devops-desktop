@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/hackwish/ansible-common-mac-devops-desktop/compare/v1.0.5...v1.0.6) (2021-12-21)
+
+
+### Bug Fixes
+
+* **ansible:** disable soapui ([f8ee8ce](https://github.com/hackwish/ansible-common-mac-devops-desktop/commit/f8ee8cef4d91938401859b40df8f014827ffca25))
+
 ## [1.0.5](https://github.com/hackwish/ansible-common-mac-devops-desktop/compare/v1.0.4...v1.0.5) (2021-12-21)
 
 
