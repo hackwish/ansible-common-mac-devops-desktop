@@ -85,7 +85,6 @@
       - 'meld'
       - 'miniconda'
       - 'mysqlworkbench'
-      - 'nmap'
       - 'pgadmin4'
       - 'postman'
       - 'robo-3t'
