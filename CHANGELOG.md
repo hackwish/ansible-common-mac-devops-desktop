@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/hackwish/ansible-common-mac-devops-desktop/compare/v1.0.4...v1.0.5) (2021-12-21)
+
+
+### Bug Fixes
+
+* **ansible:** disable freerdp ([feccd4d](https://github.com/hackwish/ansible-common-mac-devops-desktop/commit/feccd4d6262e4688a7c98667e5ca53f4b2563f83))
+
 ## [1.0.4](https://github.com/hackwish/ansible-common-mac-devops-desktop/compare/v1.0.3...v1.0.4) (2021-12-21)
 
 
