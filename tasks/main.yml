@@ -46,7 +46,7 @@
       - 'terraform-inventory'
       - 'terraformer'
       - 'terragrunt'
-      - 'tfenv'
+      # - 'tfenv'
       - 'universal-ctags'
       - 'velero'
     state: present
