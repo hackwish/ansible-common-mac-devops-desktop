@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/hackwish/ansible-common-mac-devops-desktop/compare/v1.0.7...v1.0.8) (2021-12-21)
+
+
+### Bug Fixes
+
+* **ansible:** disable tfenv ([4abafbf](https://github.com/hackwish/ansible-common-mac-devops-desktop/commit/4abafbf43e815e5b138b1c194c848037e90f7730))
+
 ## [1.0.7](https://github.com/hackwish/ansible-common-mac-devops-desktop/compare/v1.0.6...v1.0.7) (2021-12-21)
 
 
