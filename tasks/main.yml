@@ -52,7 +52,9 @@
     state: present
     update_homebrew: yes
     upgrade_all: yes
+  register: brew_devops_result
   ignore_errors: true
+  failed_when: "'Error:' in brew_devops_result.stderr"
 
 - name: "Install Homebrew Cask Packages"
   community.general.homebrew_cask:
@@ -70,7 +72,6 @@
       - 'bitwarden'
       - 'chromedriver'
       - 'docker'
-      - 'google-chrome'
       - 'google-cloud-sdk'
       - 'gpg-suite'
       - 'ibm-cloud-cli'
@@ -102,5 +103,7 @@
     state: present
     upgrade_all: yes
     update_homebrew: yes
+  register: brew_cask_devops_result
   ignore_errors: true
+  failed_when: "'Error:' in brew_cask_devops_result.stderr"
 
