@@ -13,7 +13,7 @@
       - 'docker-compose'
       - 'docker-machine'
       - 'drone-cli'
-      - 'freerdp'
+      # - 'freerdp'
       - 'hashicorp/tap/vault'
       - 'istioctl'
       - 'k3d'
