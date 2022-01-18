@@ -98,6 +98,7 @@
       - 'visual-studio-code'
       - 'wine-stable'
       - 'xquartz'
+      - 'kubeseal'
     state: present
     upgrade_all: yes
     update_homebrew: yes
