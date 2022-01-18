@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/hackwish/ansible-common-mac-devops-desktop/compare/v1.0.10...v1.0.11) (2022-01-18)
+
+
+### Bug Fixes
+
+* **ansible:** update kubeseal ([01d75bc](https://github.com/hackwish/ansible-common-mac-devops-desktop/commit/01d75bccfcea05207b6314c41dae0a24b2ed7a13))
+
 ## [1.0.10](https://github.com/hackwish/ansible-common-mac-devops-desktop/compare/v1.0.9...v1.0.10) (2022-01-18)
 
 
