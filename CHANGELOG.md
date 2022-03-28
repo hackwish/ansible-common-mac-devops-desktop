@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/hackwish/ansible-common-mac-devops-desktop/compare/v1.0.11...v1.1.0) (2022-01-18)
+
+
+### Features
+
+* **ansible:** add devops some tools: kubectx, kubespy, kubie, pulumi ([e73c82e](https://github.com/hackwish/ansible-common-mac-devops-desktop/commit/e73c82e4293ffa608073316fbcede957fb8dfb81))
+
 ## [1.0.11](https://github.com/hackwish/ansible-common-mac-devops-desktop/compare/v1.0.10...v1.0.11) (2022-01-18)
 
 
