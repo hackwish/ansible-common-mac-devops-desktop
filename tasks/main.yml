@@ -54,6 +54,10 @@
       - 'terragrunt'
       - 'universal-ctags'
       - 'velero'
+      - 'glab'
+      - 'stern'
+      - 'terrascan'
+      - 'pre-commit'
     state: present
     update_homebrew: yes
     upgrade_all: yes
@@ -103,6 +107,7 @@
       - 'visual-studio-code'
       - 'wine-stable'
       - 'xquartz'
+      - 'microsoft-azure-storage-explorer'
     state: present
     upgrade_all: yes
     update_homebrew: yes
