@@ -58,6 +58,7 @@
       - 'stern'
       - 'terrascan'
       - 'pre-commit'
+      - 'sshuttle'
     state: present
     update_homebrew: yes
     upgrade_all: yes
