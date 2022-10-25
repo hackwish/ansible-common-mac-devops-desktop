@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/hackwish/ansible-common-mac-devops-desktop/compare/v1.1.0...v1.2.0) (2022-03-28)
+
+
+### Features
+
+* **ansible:** Update packages ([2e20493](https://github.com/hackwish/ansible-common-mac-devops-desktop/commit/2e2049309738151b542046ec48fa134d4cbd32c6))
+
 # [1.1.0](https://github.com/hackwish/ansible-common-mac-devops-desktop/compare/v1.0.11...v1.1.0) (2022-01-18)
 
 
