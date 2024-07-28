@@ -91,6 +91,7 @@
     packages:
       # - 'atom'
       # - 'forticlient'
+      # - 'intellij-idea-ce'
       # - 'keepassxc'
       # - 'lastpass'
       # - 'slack'
@@ -108,7 +109,6 @@
       - 'gpg-suite'
       - 'ibm-cloud-cli'
       - 'insomnia'
-      - 'intellij-idea-ce'
       - 'iterm2'
       - 'meld'
       - 'microsoft-azure-storage-explorer'
