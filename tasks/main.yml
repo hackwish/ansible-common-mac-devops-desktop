@@ -1,4 +1,13 @@
 ---
+- name: "Install Homebrew TAP Packages"
+  community.general.homebrew_tap:
+    name: "{{ packages }}"
+  vars:
+    packages:
+      - 'adoptopenjdk/openjdk'
+      - 'hashicorp/tap'
+      - 'heroku/brew'
+
 - name: "Install Homebrew Packages"
   community.general.homebrew:
     name: "{{ packages }}"
@@ -9,12 +18,20 @@
       - 'azure-cli'
       - 'boot2docker'
       - 'ccze'
+      - 'certbot'
       - 'consul'
       - 'curl'
       - 'derailed/k9s/k9s'
       - 'docker-compose'
       - 'docker-machine'
       - 'drone-cli'
+      - 'git'
+      - 'git-crypt'
+      - 'git-flow'
+      - 'git-ftp'
+      - 'git-lfs'
+      - 'github/gh/gh'
+      - 'glab'
       - 'hashicorp/tap/vault'
       - 'istioctl'
       - 'k3d'
@@ -40,11 +57,15 @@
       - 'packer'
       - 'php'
       - 'podman'
+      - 'pre-commit'
       - 'pulumi'
       - 'rancher-compose'
       - 'rdesktop'
       - 'skaffold'
       - 'skopeo'
+      - 'sqlite'
+      - 'sshuttle'
+      - 'stern'
       - 'stunnel'
       - 'syncthing'
       - 'terraform'
@@ -52,13 +73,10 @@
       - 'terraform-inventory'
       - 'terraformer'
       - 'terragrunt'
+      - 'terrascan'
+      - 'tmux'
       - 'universal-ctags'
       - 'velero'
-      - 'glab'
-      - 'stern'
-      - 'terrascan'
-      - 'pre-commit'
-      - 'sshuttle'
     state: present
     update_homebrew: yes
     upgrade_all: yes
@@ -71,15 +89,18 @@
     name: "{{ packages }}"
   vars:
     packages:
-
       # - 'atom'
       # - 'forticlient'
+      # - 'keepassxc'
+      # - 'lastpass'
+      # - 'slack'
+      # - 'soapui'
+      # - 'sublime-text'
       # - 'teamviewer'
       - 'adoptopenjdk'
       - 'android-platform-tools'
       - 'android-studio'
       - 'azure-data-studio'
-      - 'bitwarden'
       - 'chromedriver'
       - 'docker'
       - 'google-cloud-sdk'
@@ -88,19 +109,13 @@
       - 'insomnia'
       - 'intellij-idea-ce'
       - 'iterm2'
-      - 'keepassxc'
-      - 'keybase'
-      - 'lastpass'
-      - 'macvim'
       - 'meld'
+      - 'microsoft-azure-storage-explorer'
       - 'miniconda'
       - 'mysqlworkbench'
       - 'pgadmin4'
       - 'postman'
       - 'robo-3t'
-      - 'slack'
-      # - 'soapui'
-      - 'sublime-text'
       - 'vagrant'
       - 'vagrant-manager'
       - 'virtualbox'
@@ -108,7 +123,6 @@
       - 'visual-studio-code'
       - 'wine-stable'
       - 'xquartz'
-      - 'microsoft-azure-storage-explorer'
     state: present
     upgrade_all: yes
     update_homebrew: yes
