@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/hackwish/ansible-common-mac-devops-desktop/compare/v1.2.0...v1.2.1) (2022-10-25)
+
+
+### Bug Fixes
+
+* **ansible:** add sshuttle ([e14ee1b](https://github.com/hackwish/ansible-common-mac-devops-desktop/commit/e14ee1bc6c7460b9b0bbd186981547a30a860f63))
+
 # [1.2.0](https://github.com/hackwish/ansible-common-mac-devops-desktop/compare/v1.1.0...v1.2.0) (2022-03-28)
 
 
