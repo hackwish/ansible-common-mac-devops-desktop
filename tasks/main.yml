@@ -17,7 +17,7 @@
       # - 'tfenv'
       - 'azure-cli'
       - 'boot2docker'
-      - 'ccze'
+      # - 'ccze'
       - 'certbot'
       - 'consul'
       - 'curl'
