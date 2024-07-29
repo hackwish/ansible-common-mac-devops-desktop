@@ -72,7 +72,7 @@
       - 'stern'
       - 'stunnel'
       - 'syncthing'
-      - 'terraform'
+      # - 'terraform' -- disables in favor to tfenv binaries
       - 'terraform-docs'
       - 'terraform-inventory'
       - 'terraformer'
