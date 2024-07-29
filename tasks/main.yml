@@ -15,6 +15,7 @@
     packages:
       # - 'ccze'
       # - 'freerdp'
+      # - 'mcrypt'
       # - 'tfenv'
       - 'azure-cli'
       - 'boot2docker'
@@ -46,7 +47,6 @@
       - 'kubespy'
       - 'kubie'
       - 'libmagic'
-      - 'mcrypt'
       - 'mimirtool'
       - 'minikube'
       - 'nano'
