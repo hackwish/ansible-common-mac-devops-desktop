@@ -121,7 +121,7 @@
       - 'vagrant'
       - 'vagrant-manager'
       - 'virtualbox'
-      - 'virtualbox-extension-pack'
+      # - 'virtualbox-extension-pack'
       - 'visual-studio-code'
       - 'wine-stable'
       - 'xquartz'
