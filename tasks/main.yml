@@ -55,7 +55,7 @@
       - 'ncdu'
       - 'netdata'
       - 'nmap'
-      - 'nomad'
+      # - 'nomad'
       - 'nvm'
       - 'openfortivpn'
       - 'openvpn'
