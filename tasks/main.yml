@@ -81,7 +81,7 @@
       - 'tfenv'
       - 'tmux'
       - 'universal-ctags'
-      - 'vault'
+      # - 'vault'
       - 'velero'
     state: present
     update_homebrew: yes
