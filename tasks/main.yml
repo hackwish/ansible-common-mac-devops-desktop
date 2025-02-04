@@ -111,7 +111,7 @@
       - 'aws-vpn-client'
       - 'azure-data-studio'
       - 'chromedriver'
-      - 'cryptr'
+      # - 'cryptr'
       - 'docker'
       - 'google-cloud-sdk'
       - 'gpg-suite'
