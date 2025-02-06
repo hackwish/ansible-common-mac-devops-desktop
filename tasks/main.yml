@@ -121,7 +121,7 @@
       - 'ibm-cloud-cli'
       - 'insomnia'
       - 'iterm2'
-      - 'meld'
+      - 'dehesselle-meld'
       - 'microsoft-azure-storage-explorer'
       - 'miniconda'
       - 'mysqlworkbench'
