@@ -1,10 +1,11 @@
 ---
 - name: "Remove Old Packages"
-  homebrew_tap:
+  homebrew:
     name: "{{ packages }}"
   vars:
     packages:
       - 'meld'
+      - 'bruno'
   state: absent
   ignore_errors: true
 
