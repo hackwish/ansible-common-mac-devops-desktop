@@ -2,7 +2,7 @@
 - name: "Remove Old Packages"
   homebrew:
     name: "{{ packages }}"
-    state: absent
+    state: uninstalled
   vars:
     packages:
       - 'meld'
