@@ -38,7 +38,7 @@
       # - 'tfenv'
       # - 'vault'
       # - 'azure-cli'
-      - 'bruno'
+      # - 'bruno'
       - 'certbot'
       - 'cf2tf'
       # - 'cloud-sql-proxy'
