@@ -1,14 +1,4 @@
 ---
-- name: "Remove Old Packages"
-  homebrew:
-    name: "{{ packages }}"
-    state: uninstalled
-  vars:
-    packages:
-      - 'meld'
-      - 'bruno'
-  ignore_errors: true
-
 - name: "Install Homebrew TAP Packages"
   homebrew_tap:
     name: "{{ packages }}"
